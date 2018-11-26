@@ -35,7 +35,7 @@ class DpnDHLExtension extends Extension
             $def->setMethodCalls([
                 ['setEpk', [$config['epk']]],
                 ['setUser', [$config['user']]],
-                ['setPassword', [$config['password']]],
+                ['setSignature', [$config['password']]],
             ]);
         }
 
